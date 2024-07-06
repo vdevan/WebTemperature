@@ -100,7 +100,7 @@ static const char FILE_NOT_FOUND[] PROGMEM = "FileNotFound";
 
 //Provides GatewayIP, location and Time zone. 
 String LocationUri = "http://ipinfo.io/?token=";
-String LocationToken = "xxxxxxxxxx"; //to be deleted before posting on public domain
+String LocationToken = "xxxxxxxxxx"; //use the token from your profile
 String TZDefault = "Australia/Sydney";
 struct NETWORK
 {
