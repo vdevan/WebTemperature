@@ -533,6 +533,7 @@ bool SendFile(String fileName)
       htmlFormat = "application/octet-stream";
       server.sendHeader("Content-Disposition", hfName);
       server.streamFile(file, htmlFormat);
+      file.close();
       return true;
     }
 
